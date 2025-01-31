@@ -8,7 +8,7 @@ const TodoList = () => {
 
   const handleAdd = (newItem) => {
     setItems([...items, newItem]);
-  };
+  };m
 
   const handleDelete = (index) => {
     const newItems = items.filter((_, i) => i !== index);
